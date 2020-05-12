@@ -2,8 +2,8 @@ body {
     background: rgb(253, 253, 253);
   }
   
-  .blue {
-    background: rgb(33, 81, 172);
+  .white {
+    background: rgb(255, 255, 255);
   }
   
   .box{
@@ -20,7 +20,7 @@ body {
     margin-right: 0px;
     margin-left: 0px;
     padding: 20px;
-    background: rgb(160, 163, 160);
+    background: rgb(160, 163, 163);
   }
   
   .navbar li {
@@ -54,7 +54,7 @@ body {
       padding: 20px;
   }
 
-  @media (max-width: 500px) {
+  @media (max-width: 480px) {
     .navbar li {
       padding: 15px;
     }
@@ -83,7 +83,7 @@ body {
   .col-11 {width: 92%;}
   .col-12 {width: 100%;}
   
-  @media only screen and (max-width: 766px) {
+  @media only screen and (max-width: 768px) {
 
       [class*="col-"] {
           width: 100%;
