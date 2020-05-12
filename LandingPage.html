@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+
+  <meta charset="UTF-8">
+  <title>BK's Latitude Analysis Home Page :)</title>
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+		<nav class="navbar navbar-default">
+				<div class="container">
+
+				  <div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+					  <span class="sr-only">Toggle navigation</span>
+					  <span class="icon-bar"></span>
+					  <span class="icon-bar"></span>
+					  <span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="LandingPage.html">Latitude Analysis Home</a>
+				  </div>
+			  
+
+				  <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+					
+						<ul class="nav navbar-nav navbar-right">
+								<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Plots <span class="caret"></span></a>
+								<li class="dropdown"></li>
+								<li><a href="Comparisons.html">Comparisons</a></li>
+							  <li><a href="DataPage.html">Data</a></li>
+								<ul class="dropdown-menu">
+								  <li><a href="LatVsMaxTemp.html">Max Temperature</a></li>
+								  <li><a href="LatVsHumidity.html">Humidity</a></li>
+								  <li><a href="LatVsCloudiness.html">Cloudiness</a></li>
+								  <li role="separator" class="divider"></li>
+								  <li><a href="LatVsWindiness.html">Wind Speed</a></li>
+					  </li>
+					</ul>
+				  </div>
+				</div>
+			  </nav>
+			  
+			  <div class="container-fluid">
+				  <div class="row">
+				   <div class="col-md-1"></div>  
+					 <div class="col-md-6">
+					<h1>Summary</h1>
+					  <img src="Images/LatVsMaxTemp.png" width="400" height="250">
+					  <p>The purpose of this assignment was to analyze how different variables associated with weather change as you get closer to the equator. More specifically this was a comparison study that compared different cities latitude with factors such as maximum temperature, wind speeds, cloudiness and humidity. To
+                        accomplish this task, data from the OpenWeatherMap API was used to gather information on 500 random cities. </p>
+					  <p>After the data set was properly rendered, the Python library Matplotlib was used to plot the various visualizations.
+                        This site provides the source data as well as the visualizations created as part of the overall analysis. Explanations and descriptions of
+                        any trends observed are also included. I hope this is a helpful tool for all viewers! Enjoy!</p> 
+				   </div>    
+					 <div class="col-md-4 sidebar">
+					  <div class="row">
+						<div class="col-md-12">
+						  <h1>Visualizations</h1>
+						</div>
+					  </div>
+					 <div class="row">
+			  
+						<div class="col-md-3">    
+							 <a href="LatVsMaxTemp.html">Max Temperature<img src="Images/LatVsMaxTemp.png" width="200px" height="150px"></a>
+						</div>
+						<div class="col-md-3"></div>
+					  
+						<div class="col-md-3">  
+							 <a href="LatVsHumidity.html">Humidity<img src="Images/LatVsHum.png" width="200px" height="150px"></a>
+						</div>
+						<div class="col-md-3"></div>  
+					 </div>   
+					 <div class ="row"> 
+						
+						<div class="col-md-3">  
+						  <a href="LatVsCloudiness.html">Cloudiness<img src="Images/LatVsClou.png" width="200px" height="150px"></a>
+						</div>
+						<div class="col-md-3"></div>
+			  
+						<div class="col-md-3">     
+						  <a href="LatVsWindiness.html">Wind Speed<img src="Images/LatVsWind.png" width="200px" height="150px"></a>
+						</div>
+						<div class="col-md-3"></div>
+					  </div>    
+				   </div>         
+				  <div class="col-md-1"></div>
+				</div>      
+			  </div>			  
+</body>
+
+</html>
